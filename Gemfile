@@ -1,12 +1,10 @@
-if ENV['heroku']
+#if ENV['heroku']
   source 'https://rubygems.org'
-else
-  source 'https://gems.ruby-china.org'
-end
+#else
+#  source 'https://gems.ruby-china.org'
+#end
 
-ruby "2.3.1"
-
-
+ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
