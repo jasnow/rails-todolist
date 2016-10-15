@@ -48,7 +48,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     arel (7.1.4)
-    autoprefixer-rails (6.5.0.2)
+    autoprefixer-rails (6.5.1)
       execjs
     bcrypt (3.1.11)
     bootstrap-sass (3.3.7)
@@ -321,4 +321,4 @@ RUBY VERSION
    ruby 2.4.0p-1
 
 BUNDLED WITH
-   1.13.3
+   1.13.4
