@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rubysherpas/paranoia
-  revision: 70f6e37b7b32cf4f70c5b852a38597699f476c62
+  revision: d70c4c5a7098d4c8416332489e3f63b0a959ab97
   branch: rails5
   specs:
     paranoia (2.2.0.pre)
