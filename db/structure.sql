@@ -2,11 +2,12 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 9.5.4
--- Dumped by pg_dump version 9.5.4
+-- Dumped from database version 9.6.1
+-- Dumped by pg_dump version 9.6.1
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
 SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
 SET check_function_bodies = false;
@@ -151,28 +152,28 @@ ALTER SEQUENCE todos_id_seq OWNED BY todos.id;
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: -
+-- Name: accounts id; Type: DEFAULT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY accounts ALTER COLUMN id SET DEFAULT nextval('accounts_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: -
+-- Name: todos id; Type: DEFAULT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY todos ALTER COLUMN id SET DEFAULT nextval('todos_id_seq'::regclass);
 
 
 --
--- Name: sort; Type: DEFAULT; Schema: public; Owner: -
+-- Name: todos sort; Type: DEFAULT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY todos ALTER COLUMN sort SET DEFAULT nextval('sort_seq'::regclass);
 
 
 --
--- Name: accounts_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: accounts accounts_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY accounts
@@ -180,7 +181,7 @@ ALTER TABLE ONLY accounts
 
 
 --
--- Name: ar_internal_metadata_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: ar_internal_metadata ar_internal_metadata_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY ar_internal_metadata
@@ -188,7 +189,7 @@ ALTER TABLE ONLY ar_internal_metadata
 
 
 --
--- Name: schema_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: schema_migrations schema_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY schema_migrations
@@ -196,7 +197,7 @@ ALTER TABLE ONLY schema_migrations
 
 
 --
--- Name: todos_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: todos todos_pkey; Type: CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY todos
@@ -246,7 +247,7 @@ CREATE INDEX index_todos_on_sort ON todos USING btree (sort);
 
 
 --
--- Name: fk_rails_f0c3d7b193; Type: FK CONSTRAINT; Schema: public; Owner: -
+-- Name: todos fk_rails_f0c3d7b193; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
 ALTER TABLE ONLY todos
@@ -259,6 +260,10 @@ ALTER TABLE ONLY todos
 
 SET search_path TO "$user", public;
 
-INSERT INTO schema_migrations (version) VALUES ('20160822133721'), ('20160822141650'), ('20160822155405'), ('20160822192858');
+INSERT INTO schema_migrations (version) VALUES
+('20160822133721'),
+('20160822141650'),
+('20160822155405'),
+('20160822192858');
 
 
