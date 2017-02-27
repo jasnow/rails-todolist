@@ -6,7 +6,7 @@
 
 ruby '2.4.0'
 
-gem 'rails', '5.0.2.rc1'
+gem 'rails', '5.1.0.beta1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
@@ -68,5 +68,5 @@ gem 'bourbon'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'kaminari'
-gem "paranoia"
+gem "paranoia", git: 'https://github.com/rubysherpas/paranoia', branch: 'core'
 gem 'rails_12factor', group: :production
