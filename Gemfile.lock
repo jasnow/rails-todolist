@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rubysherpas/paranoia
-  revision: b63f446d644493fd18306154c8bfadf4288711b1
+  revision: 36adfecb12d416af640bc4a979268653411c0114
   branch: core
   specs:
     paranoia (2.2.1)
