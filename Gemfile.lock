@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/rubysherpas/paranoia
-  revision: 9e43d569abf077aa95ac11f3151fbdde7dd219b5
+  revision: 07c8e8b624287a4395b1ef351dc52f0ab239e082
   branch: core
   specs:
-    paranoia (2.2.1)
+    paranoia (2.3.0)
       activerecord (>= 4.0, < 5.1)
 
 GEM
@@ -100,8 +100,8 @@ GEM
       railties (>= 3.0.0)
     ffi (1.9.18)
     formatador (0.2.5)
-    globalid (0.3.7)
-      activesupport (>= 4.1.0)
+    globalid (0.4.0)
+      activesupport (>= 4.2.0)
     guard (2.14.1)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
