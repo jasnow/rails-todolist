@@ -68,5 +68,5 @@ gem 'bourbon'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'kaminari'
-gem "paranoia", git: 'https://github.com/rubysherpas/paranoia', branch: 'core'
+gem "paranoia"
 gem 'rails_12factor', group: :production

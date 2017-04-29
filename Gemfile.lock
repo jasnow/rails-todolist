@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/rubysherpas/paranoia
-  revision: 07c8e8b624287a4395b1ef351dc52f0ab239e082
-  branch: core
-  specs:
-    paranoia (2.3.0)
-      activerecord (>= 4.0, < 5.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -164,6 +156,8 @@ GEM
       nenv (~> 0.1)
       shellany (~> 0.0)
     orm_adapter (0.5.0)
+    paranoia (2.3.1)
+      activerecord (>= 4.0, < 5.2)
     pg (0.20.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -214,8 +208,9 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
-    responders (2.3.0)
-      railties (>= 4.2.0, < 5.1)
+    responders (2.4.0)
+      actionpack (>= 4.2.0, < 5.3)
+      railties (>= 4.2.0, < 5.3)
     rspec-core (3.5.4)
       rspec-support (~> 3.5.0)
     rspec-expectations (3.5.0)
@@ -310,7 +305,7 @@ DEPENDENCIES
   kaminari
   launchy
   listen
-  paranoia!
+  paranoia
   pg
   pry-byebug
   pry-rails
