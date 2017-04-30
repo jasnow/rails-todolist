@@ -6,7 +6,7 @@
 
 ruby '2.4.1'
 
-gem 'rails', '5.1.0.rc2'
+gem 'rails', '5.1.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
@@ -66,7 +66,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'slim-rails'
 gem 'bourbon'
 gem 'bootstrap-sass'
-gem 'devise'
+gem 'devise', git: 'https://github.com/plataformatec/devise' # LOCKED DOWN
 gem 'kaminari'
 gem "paranoia"
 gem 'rails_12factor', group: :production
