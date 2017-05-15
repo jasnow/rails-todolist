@@ -66,7 +66,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'slim-rails'
 gem 'bourbon'
 gem 'bootstrap-sass'
-gem 'devise', git: 'https://github.com/plataformatec/devise' # LOCKED DOWN
+gem 'devise'
 gem 'kaminari'
 gem "paranoia"
 gem 'rails_12factor', group: :production
