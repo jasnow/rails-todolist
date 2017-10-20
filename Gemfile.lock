@@ -86,10 +86,10 @@ GEM
     erubi (1.7.0)
     eventmachine (1.2.5)
     execjs (2.7.0)
-    factory_girl (4.8.1)
+    factory_bot (1.0.1.alpha)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.8.0)
-      factory_girl (~> 4.8.0)
+    factory_bot_rails (1.0.0.alpha)
+      factory_bot (~> 1.0.0.alpha)
       railties (>= 3.0.0)
     ffi (1.9.18)
     formatador (0.2.5)
@@ -302,7 +302,7 @@ DEPENDENCIES
   coffee-rails
   database_cleaner
   devise
-  factory_girl_rails
+  factory_bot_rails
   guard-livereload
   jbuilder
   jquery-rails
