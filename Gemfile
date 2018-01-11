@@ -8,7 +8,7 @@ ruby '2.5.0'
 
 gem 'rails', '5.1.4'
 # Use postgresql as the database for Active Record
-gem 'pg'
+gem 'pg', '0.21.0' # 1/11/2018: LOCKED DOWN
 # Use Puma as the app server
 gem 'puma'
 # Use SCSS for stylesheets
