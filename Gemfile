@@ -4,7 +4,7 @@
 #  source 'https://gems.ruby-china.org'
 #end
 
-ruby '2.5.0'
+ruby '2.6.0'
 
 gem 'rails', '5.1.5'
 # Use postgresql as the database for Active Record
