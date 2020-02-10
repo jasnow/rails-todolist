@@ -49,7 +49,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'pry-byebug'
   gem 'pry-rails'
-  gem 'rspec-rails', '4.0.0.beta3' # 4/26/2019: LOCKED DOWN
+  gem 'rspec-rails', '4.0.0.beta4' # 4/26/2019: LOCKED DOWN
   gem 'factory_bot_rails'
   gem 'rubocop-rspec'
   gem 'rubocop-rails'
